@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Weihao Sun',
+  description: "My personal website",
 };
 
 /**
@@ -73,13 +73,12 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a undergraduate university student at University of British Columbia. I am currently in my final year of study, and I
-        will be graduating in May 2024. My major of study is Statistics, and I am also persuing a Minor degree in Data Science. 
+        I'm an Bsc. student at University of British Columbia. I am currently in my final year of study, and I
+        will be graduating in May 2024. My major of study is Statistics, and I am also pursuing a Minor degree in Data Science.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time, you can catch me skiing or snowboarding on Cypress or Grouse Mountain, hiking, or cycling in
+        beautiful Great Vancouver.
       </p>
     </>
   ),
@@ -103,16 +102,21 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I am an undergraduate student at the University of British Columbia. My major of study is Statistics, 
+  and I am also pursuing a Minor degree in Data Science. My interest area includes Machine Learning and Data Engineering. 
+  My previous internship as a Data Engineer in TripleEagle Logistics Vancouver involved developing internally used billing 
+  calculating systems and maintaining and updating the company’s database. I also had a research experience involving developing 
+  a Physics-Informed Neural Network (PINN) to solve partial differential equations in battery modelling. 
+  My side projects are mostly about developing, tunning, and evaluating machine learning models and performing analysis on 
+  large datasets.`,
+  
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    // {label: 'Location', text: 'Vancouver, BC', Icon: MapIcon},
+    // {label: 'Age', text: '24', Icon: CalendarIcon},
+    // {label: 'Nationality', text: 'Chinese', Icon: FlagIcon},
+    // {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
+    // {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
+    // {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -267,16 +271,19 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'September 2019 - May 2024',
+    location: 'Bachelor in Science',
+    title: 'University of British Columbia ',
+    content: <p>Major in Statistics, Minor in Data Science.
+      <br></br> Core courses: Introduction to Probability (A+), Statistical Inference for Data Science (A), 
+      Machine Learning and Data Mining (A), Methods for Statistical Learning (A), Statistical Modelling for Data Science (A)
+    </p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'September 2015 - June 2018',
+    location: 'Secondary school',
+    title: 'Qingdao No.2 Middle School',
+    content: <p></p>,
   },
 ];
 
