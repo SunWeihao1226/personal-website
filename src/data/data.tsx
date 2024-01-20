@@ -1,11 +1,11 @@
 import {
-  AcademicCapIcon,
+  // AcademicCapIcon,
   ArrowDownTrayIcon,
-  BuildingOffice2Icon,
-  CalendarIcon,
-  FlagIcon,
-  MapIcon,
-  SparklesIcon,
+  // BuildingOffice2Icon,
+  // CalendarIcon,
+  // FlagIcon,
+  // MapIcon,
+  // SparklesIcon,
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
@@ -128,67 +128,77 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
-        level: 10,
+        name: 'English (Full Professional Proficiency),',
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Mandarin (Native),',
       },
       {
-        name: 'Spanish',
-        level: 3,
+        name: 'French (Beginner)',
       },
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Programming Languages',
     skills: [
       {
-        name: 'React',
-        level: 9,
+        name: 'Python,',
       },
       {
-        name: 'Typescript',
-        level: 7,
+        name: 'R,',
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'Java,',
+      },
+      {
+        name: 'Julia,',
+      },
+      {
+        name: 'Javascript,',
+      },
+      {
+        name: 'Racket,',
+      },
+      {
+        name: 'SQL',
       },
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Tools',
     skills: [
       {
-        name: 'Node.js',
-        level: 8,
+        name: 'Jupyter,',
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Git,',
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'Docker,',
+      },
+      {
+        name: 'Latex',
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Frameworks and Packages',
     skills: [
+      
       {
-        name: 'React Native',
-        level: 9,
+        name: 'Scikit-Learn,',
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Django,',
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Torch,',
+      },
+      {
+        name: 'React,',
+      },
+      {
+        name: 'Flask',
       },
     ],
   },
@@ -289,27 +299,47 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'November 2023 - Present',
+    location: 'Look4Tutor Inc.',
+    title: 'Part-time Tutor',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Tutoring Statistics, Math, Computer Science, and Data Science courses at UBC and SFU.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'May 2022 - August 2022',
+    location: 'Triple Eagle Logistics Vancouver',
+    title: 'Data Engineer Intern',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        - Developed, tested, and maintained an internally used automatic bill calculation system.
+        <br></br>
+        - Updated and maintained the company database; Analyzed the database structure; designed and modified the structure to cater to different use cases.
+        <br></br>
+        - Designed the Microsoft Power Automate pipeline to Use Excel Online to write Office Script to automatically fill in charging rates, amounts, and dates into the daily form.
+        <br></br>
+        - Matched and extracted essential information such as tracking numbers and prices from large, noisy data provided by clients for usage by other departments, which improved the working efficiency by over 60%.
       </p>
     ),
   },
+  {
+    date: 'May 2022 - August 2022',
+    location: 'UBC | Supervisor: Maricela Best McKay',
+    title: 'REX Undergraduate Researcher',
+    content: (
+      <p>
+        - Physics Informed Neural Network for Battery Modeling Project.
+        <br></br>
+        - Solved partial differential equations to improve the current battery models with Physics Informed Neural Network (PINN)
+        <br></br>
+        - Conducted literature survey on PINN, SPM, and Lithium batteries; Collected, cleansed data, prepared data for data visualization, and applied exploratory analysis.
+        <br></br>
+        - Developed the Physics Informal Neural Network from scratch, fitted the model to existing data, and analyzed the PINN model.
+      </p>
+    ),
+  }
 ];
 
 /**
