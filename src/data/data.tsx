@@ -11,7 +11,7 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
@@ -73,8 +73,9 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm an Bsc. student at University of British Columbia. I am currently in my final year of study, and I
+        I'm an undergraduate student at University of British Columbia. I am currently in my final year of study, and I
         will be graduating in May 2024. My major of study is Statistics, and I am also pursuing a Minor degree in Data Science.
+        I am open to Data Analytics or Machine Learning developer works.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, you can catch me skiing or snowboarding on Cypress or Grouse Mountain, hiking, or cycling in
@@ -148,6 +149,9 @@ export const skills: SkillGroup[] = [
         name: 'R,',
       },
       {
+        name: 'SQL',
+      },
+      {
         name: 'Java,',
       },
       {
@@ -158,9 +162,6 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Racket,',
-      },
-      {
-        name: 'SQL',
       },
     ],
   },
@@ -325,7 +326,7 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'May 2022 - August 2022',
+    date: 'November 2021 - April 2022',
     location: 'UBC | Supervisor: Maricela Best McKay',
     title: 'REX Undergraduate Researcher',
     content: (
@@ -342,6 +343,50 @@ export const experience: TimelineItem[] = [
   }
 ];
 
+export const projects: TimelineItem[] = [
+  {
+    date: 'August 2023 - Present',
+    location: 'Look4Tutor Inc.',
+    title: 'Part-time Tutor',
+    content: (
+      <p>
+        Tutoring Statistics, Math, Computer Science, and Data Science courses at UBC and SFU.
+      </p>
+    ),
+  },
+  {
+    date: 'May 2022 - August 2022',
+    location: 'Triple Eagle Logistics Vancouver',
+    title: 'Data Engineer Intern',
+    content: (
+      <p>
+        - Developed, tested, and maintained an internally used automatic bill calculation system.
+        <br></br>
+        - Updated and maintained the company database; Analyzed the database structure; designed and modified the structure to cater to different use cases.
+        <br></br>
+        - Designed the Microsoft Power Automate pipeline to Use Excel Online to write Office Script to automatically fill in charging rates, amounts, and dates into the daily form.
+        <br></br>
+        - Matched and extracted essential information such as tracking numbers and prices from large, noisy data provided by clients for usage by other departments, which improved the working efficiency by over 60%.
+      </p>
+    ),
+  },
+  {
+    date: 'November 2021 - April 2022',
+    location: 'UBC | Supervisor: Maricela Best McKay',
+    title: 'REX Undergraduate Researcher',
+    content: (
+      <p>
+        - Physics Informed Neural Network for Battery Modeling Project.
+        <br></br>
+        - Solved partial differential equations to improve the current battery models with Physics Informed Neural Network (PINN)
+        <br></br>
+        - Conducted literature survey on PINN, SPM, and Lithium batteries; Collected, cleansed data, prepared data for data visualization, and applied exploratory analysis.
+        <br></br>
+        - Developed the Physics Informal Neural Network from scratch, fitted the model to existing data, and analyzed the PINN model.
+      </p>
+    ),
+  }
+];
 /**
  * Testimonial section
  */
@@ -376,23 +421,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'sweihao@student.ubc.ca',
+      href: 'mailto:sweihao@student.ubc.ca',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Vancouver BC, Canada',
+      href: 'https://maps.app.goo.gl/MSXXy4dC7P6ZTcaV6',
     },
     {
       type: ContactType.Instagram,
       text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      href: 'https://www.instagram.com/berensun1226/',
     },
     {
       type: ContactType.Github,
       text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      href: 'https://github.com/SunWeihao1226',
     },
   ],
 };
@@ -401,9 +446,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/SunWeihao1226'},
+  // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/weihaosun1226/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/berensun1226/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/dxlswh'},
 ];
