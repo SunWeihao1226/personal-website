@@ -13,7 +13,7 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
+import heroImage from '../images/background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-pinn.png';
 import porfolioImage3 from '../images/portfolio/portfolio-edf.png';
 import porfolioImage4 from '../images/portfolio/portfolio-cc.png';
@@ -22,7 +22,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-zoo.png';
 import porfolioImage9 from '../images/portfolio/portfolio-apms.png';
 import porfolioImage10 from '../images/portfolio/portfolio-hpg.png';
 import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.webp';
+import testimonialImage from '../images/testimonial-bg.webp';
 import {
   About,
   ContactSection,
@@ -68,12 +68,13 @@ export const heroData: Hero = {
   name: `I'm Weihao Sun.`,
   description: (
     <>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+      <p className="prose-sm mx-19 px-20 text-stone-200 sm:prose-base lg:prose-lg">
         I'm an undergraduate student at University of British Columbia. I am currently in my final year of study, and I
         will be graduating in May 2024. My major of study is Statistics, and I am also pursuing a Minor degree in Data Science.
+        I will be in China from June to August in 2024. 
         I am open to Data Analytics or Machine Learning developer works.
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+      <p className="prose-sm mx-19 px-20 text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, you can catch me skiing or snowboarding on Cypress or Grouse Mountain, hiking, or cycling in
         beautiful Great Vancouver.
       </p>
@@ -404,19 +405,19 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      name: 'Sean, Manager of TripleEagle Logistics Vancouver',
+      text: 'Throughout his time in my department, Mr. Sun has consistently demonstrated the highest level of dedication and competence to the work and the team.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+      name: 'Raquel, Machine Learning Researcher at Borealis AI, Project Supervisor',
+      text: 'Mr. Sun along with the team BinAry Flow Jedi put great efforts into their Let\'s Solve It project, and I am really impressed with the results they have achieved.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: 'MBTI Personalities',
+      text: 'ISTJ is a personality type with the Introverted, Observant, Thinking, and Judging traits. These people tend to be reserved yet willful, with a rational outlook on life. They compose their actions carefully and carry them out with methodical purpose.',
+      image: 'https://i.pinimg.com/474x/bd/80/22/bd80229dd7d6290c9b2b98e6326a5b52.jpg',
     },
   ],
 };
