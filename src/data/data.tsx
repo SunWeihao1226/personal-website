@@ -14,17 +14,13 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import porfolioImage1 from '../images/portfolio/portfolio-pinn.png';
+import porfolioImage3 from '../images/portfolio/portfolio-edf.png';
+import porfolioImage4 from '../images/portfolio/portfolio-cc.png';
+import porfolioImage2 from '../images/portfolio/portfolio-car.png';
+import porfolioImage8 from '../images/portfolio/portfolio-zoo.png';
+import porfolioImage9 from '../images/portfolio/portfolio-apms.png';
+import porfolioImage10 from '../images/portfolio/portfolio-hpg.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -210,71 +206,49 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'PINN for Battery',
+    description: 'Physics Informed Neural Network for Battery Modeling Project',
+    url: 'https://github.com/SunWeihao1226/PINN_for_battery',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Classification on Smog Ratings of Cars in the Year 2022',
+    description: 'Applied Naive Bayesian analysis, KNN, and SVM strategies for model construction and autonomous testing. \nApplied classical statistical methods, including confidence and prediction intervals and their calibration to evaluate models.',
+    url: 'https://github.com/SunWeihao1226/STAT447_Project',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Credit Card Client Analysis',
+    description: 'Applied multiple machine learning models to predict whether a client will likely default or not.',
+    url: 'https://github.com/SunWeihao1226/Credit-Card-Client-Dataset-Analysis',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
+
+    title: 'Emergency Department Forecast',
+    description: 'Team BinAry Flow Jedi project. \n Let\'s Solve it - LSi 2023. Predict the number of patients in emergency departments in BC local hospitals',
+    url: 'https://github.com/SunWeihao1226/EDforecast',
+    image: porfolioImage3,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Building Packages and Data Analysis Pipelines for Zoo Analysis',
+    description: 'Implemented and evaluated various machine learning models (k-nearest neighbor, decision tree, support vector machine, and logistic regression) to classify animal specifies based on physical features. Developed a reproducible pipeline for the classification problem, collaborated within a team using GitHub and maintained the Python package, integrated the package using Docker.',
+    url: 'https://github.com/SunWeihao1226/Zoo_Analysis',
     image: porfolioImage8,
   },
   {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Amusement Park Management System',
+    description: 'A database management system designed for amusement park business. The database of the project models the employment, logistics, and ticket services of the park. This project is built on Django framework.',
+    url: 'https://github.com/SunWeihao1226/Amusement-Park-Management-System',
     image: porfolioImage9,
   },
   {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Harry Potter Themed Text-based Role-playing Game',
+    description: 'This is a simple Harry Potter theme turn-based role-playing video game. Players can choose their favourite wizard to fight against evil enemies by choosing a spell to in each round. Different spells have different ATK(attack) to the enemy, and if the HP(health point) of a character less than or equals to zero, then the character dies. Each wizard and enemy also has unique HP and ATK from others, so the difficulty of each battle is distinct. This is a demo version containing three battles.',
+    url: 'https://github.com/SunWeihao1226/Harry_Potter_Game',
     image: porfolioImage10,
   },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
-  },
+
 ];
 
 /**
@@ -302,7 +276,7 @@ export const experience: TimelineItem[] = [
   {
     date: 'November 2023 - Present',
     location: 'Look4Tutor Inc.',
-    title: 'Part-time Tutor',
+    title: 'Part-time University Tutor',
     content: (
       <p>
         Tutoring Statistics, Math, Computer Science, and Data Science courses at UBC and SFU.
@@ -345,44 +319,80 @@ export const experience: TimelineItem[] = [
 
 export const projects: TimelineItem[] = [
   {
-    date: 'August 2023 - Present',
-    location: 'Look4Tutor Inc.',
-    title: 'Part-time Tutor',
+    date: 'August 2023 - December 2023',
+    location: 'Team Project',
+    title: 'Emergency Department Forecast',
     content: (
       <p>
-        Tutoring Statistics, Math, Computer Science, and Data Science courses at UBC and SFU.
+        - Collaborated with Borealis AI, a research institute of RBC.
+        <br></br>
+        - Applied and evaluated advanced machine learning models, including Regularized Regression, Neural Networks, Time Series models, etc., to predict local emergency department demands.
+        <br></br>
+        - Performed in-depth feature creation by appending climate, holiday, and demography data to enhance analysis.
+        <br></br>
+        - Kept identifying opportunities for adaption and refinement, and seeking collaboration with local hospitals or public health agencies.
       </p>
     ),
   },
   {
-    date: 'May 2022 - August 2022',
-    location: 'Triple Eagle Logistics Vancouver',
-    title: 'Data Engineer Intern',
+    date: 'January 2023 - April 2023',
+    location: 'Team Project',
+    title: 'Classification on Smog Ratings of Cars in the Year 2022',
     content: (
       <p>
-        - Developed, tested, and maintained an internally used automatic bill calculation system.
+        - Performed early-stage raw data collection via public channels, including National Statistics Bureau, FRED, etc.
         <br></br>
-        - Updated and maintained the company database; Analyzed the database structure; designed and modified the structure to cater to different use cases.
+        - Applied Naive Bayesian analysis, KNN, and SVM strategies for model construction and autonomous testing.        
         <br></br>
-        - Designed the Microsoft Power Automate pipeline to Use Excel Online to write Office Script to automatically fill in charging rates, amounts, and dates into the daily form.
+        - Applied classical statistical methods, including confidence and prediction intervals and their calibration to evaluate models.
         <br></br>
-        - Matched and extracted essential information such as tracking numbers and prices from large, noisy data provided by clients for usage by other departments, which improved the working efficiency by over 60%.
+        - Adopted transformers including SVD and PCA for model improvements.      
       </p>
     ),
   },
   {
-    date: 'November 2021 - April 2022',
-    location: 'UBC | Supervisor: Maricela Best McKay',
-    title: 'REX Undergraduate Researcher',
+    date: 'January 2022 - April 2022',
+    location: 'Team Project',
+    title: 'Building Packages and Data Analysis Pipelines for Zoo Analysis',
     content: (
       <p>
-        - Physics Informed Neural Network for Battery Modeling Project.
+        - Implemented and evaluated various machine learning models (k-nearest neighbor, decision tree, support vector machine, and logistic regression) to classify animal specifies based on physical features.
         <br></br>
-        - Solved partial differential equations to improve the current battery models with Physics Informed Neural Network (PINN)
+        - Developed a reproducible pipeline for the classification problem, and integrated the pipeline using Docker.        
         <br></br>
-        - Conducted literature survey on PINN, SPM, and Lithium batteries; Collected, cleansed data, prepared data for data visualization, and applied exploratory analysis.
+        - Developed, maintained, and published Python packages encapsulating commonly used functions in the pipeline to enhance reproducibility.        
+      </p>
+    ),
+  },
+  {
+    date: 'September 2021 - December 2021',
+    location: 'Team Project',
+    title: 'Amusement Park Management System',
+    content: (
+      <p>
+        - Developed an full stack application from scratch using Django framework and SQLite.
         <br></br>
-        - Developed the Physics Informal Neural Network from scratch, fitted the model to existing data, and analyzed the PINN model.
+        - Implemented a database modelling functions on services, employment management, and amusement facilities.       
+        <br></br>
+        - Performed database structure analysis, and normalized the relations among tables to reduce redundancy. 
+        <br></br>
+        - Designed the user interface of the application with the Bootstrap template.       
+      </p>
+    ),
+  },
+  {
+    date: 'May 2020 - August 2020',
+    location: 'Personal Project',
+    title: 'Harry Potter Themed Text-based Role-playing Game',
+    content: (
+      <p>
+        - Developed in the progress of both console-based and GUI-based versions and maintained simple transitions.
+        <br></br>
+        - A turn-based RPG where players engage in battles using a selection of spells, each with unique attack values, against progressively challenging enemies, enhancing the immersive Harry Potter-themed experience.
+        <br></br>
+        - Implemented a dynamic archive management system allowing players to choose from various wizards, each with distinct HP and ATK stats, adding strategic depth to battles and ensuring a varied gaming experience across different sessions.  
+        <br></br>
+        - Included a well-designed interface, stories, characters and portraits.   
       </p>
     ),
   }
@@ -417,7 +427,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'You are welcome to contact me through any of the following platforms.',
   items: [
     {
       type: ContactType.Email,
@@ -431,12 +441,12 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
+      text: '@berensun1226',
       href: 'https://www.instagram.com/berensun1226/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
+      text: 'SunWeihao1226',
       href: 'https://github.com/SunWeihao1226',
     },
   ],
