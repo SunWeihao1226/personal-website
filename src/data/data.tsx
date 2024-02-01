@@ -1,11 +1,5 @@
 import {
-  // AcademicCapIcon,
   ArrowDownTrayIcon,
-  // BuildingOffice2Icon,
-  // CalendarIcon,
-  // FlagIcon,
-  // MapIcon,
-  // SparklesIcon,
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
@@ -14,13 +8,13 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-pinn.png';
-import porfolioImage3 from '../images/portfolio/portfolio-edf.png';
-import porfolioImage4 from '../images/portfolio/portfolio-cc.png';
-import porfolioImage2 from '../images/portfolio/portfolio-car.png';
-import porfolioImage8 from '../images/portfolio/portfolio-zoo.png';
 import porfolioImage9 from '../images/portfolio/portfolio-apms.png';
+import porfolioImage2 from '../images/portfolio/portfolio-car.png';
+import porfolioImage4 from '../images/portfolio/portfolio-cc.png';
+import porfolioImage3 from '../images/portfolio/portfolio-edf.png';
 import porfolioImage10 from '../images/portfolio/portfolio-hpg.png';
+import porfolioImage1 from '../images/portfolio/portfolio-pinn.png';
+import porfolioImage8 from '../images/portfolio/portfolio-zoo.png';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial-bg.webp';
 import {
