@@ -251,6 +251,16 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
+    date: 'August 2024 - May 2025',
+    location: 'MEng. in System Engineering',
+    title: 'Cornell University ',
+    content: <p></p>,
+    // <p>Major in Statistics, Minor in Data Science.
+    //   <br></br> Core courses: Introduction to Probability (A+), Statistical Inference for Data Science (A), 
+    //   Machine Learning and Data Mining (A), Methods for Statistical Learning (A), Statistical Modelling for Data Science (A)
+    // </p>,
+  },
+  {
     date: 'September 2019 - May 2024',
     location: 'Bachelor in Science',
     title: 'University of British Columbia ',
@@ -268,16 +278,7 @@ export const education: TimelineItem[] = [
 ];
 
 export const experience: TimelineItem[] = [
-  {
-    date: 'November 2023 - Present',
-    location: 'Look4Tutor Inc.',
-    title: 'Part-time University Tutor',
-    content: (
-      <p>
-        Tutoring Statistics, Math, Computer Science, and Data Science courses at UBC and SFU.
-      </p>
-    ),
-  },
+  
   {
     date: 'May 2022 - August 2022',
     location: 'Triple Eagle Logistics Vancouver',
@@ -309,7 +310,17 @@ export const experience: TimelineItem[] = [
         - Developed the Physics Informal Neural Network from scratch, fitted the model to existing data, and analyzed the PINN model.
       </p>
     ),
-  }
+  },
+  {
+    date: 'November 2023 - Present',
+    location: 'Look4Tutor Inc.',
+    title: 'Part-time University Tutor',
+    content: (
+      <p>
+        Tutoring Statistics, Math, Computer Science, and Data Science courses at UBC and SFU.
+      </p>
+    ),
+  },
 ];
 
 export const projects: TimelineItem[] = [
