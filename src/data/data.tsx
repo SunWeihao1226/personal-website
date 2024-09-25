@@ -154,7 +154,13 @@ export const skills: SkillGroup[] = [
         name: 'Javascript,',
       },
       {
+        name: 'Dart',
+      },
+      {
         name: 'Racket,',
+      },
+      {
+        name: 'C++',
       },
     ],
   },
@@ -172,6 +178,9 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Latex',
+      },
+      {
+        name: 'SysML',
       },
     ],
   },
