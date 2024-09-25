@@ -63,14 +63,14 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm mx-19 px-20 text-stone-200 sm:prose-base lg:prose-lg">
-        I'm an undergraduate student at University of British Columbia. I am currently in my final year of study, and I
-        will be graduating in May 2024. My major of study is Statistics, and I am also pursuing a Minor degree in Data Science.
-        I will be in China from June to August in 2024. 
-        I am open to Data Analytics or Machine Learning developer works.
+      I am currently a graduate student at Cornell University, pursuing a Master of Engineering in Systems Engineering. 
+      With a foundation in Statistics and Data Science based on my undergraduate study at UBC, 
+      my primary focus is on developing healthcare systems that support decision-making through data analysis and Machine Learning. 
+      I am set to graduate in May 2025, and I am seeking opportunities in Systems Engineering, 
+      Data Science, or Machine Learning development roles across North America.
       </p>
       <p className="prose-sm mx-19 px-20 text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, you can catch me skiing or snowboarding on Cypress or Grouse Mountain, hiking, or cycling in
-        beautiful Great Vancouver.
+        In my free time, I enjoy hiking, skiing, photography, and watching films.
       </p>
     </>
   ),
@@ -94,13 +94,15 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I am an undergraduate student at the University of British Columbia. My major of study is Statistics, 
-  and I am also pursuing a Minor degree in Data Science. My interest area includes Machine Learning and Data Engineering. 
-  My previous internship as a Data Engineer in TripleEagle Logistics Vancouver involved developing internally used billing 
-  calculating systems and maintaining and updating the company’s database. I also had a research experience involving developing 
-  a Physics-Informed Neural Network (PINN) to solve partial differential equations in battery modelling. 
-  My side projects are mostly about developing, tunning, and evaluating machine learning models and performing analysis on 
-  large datasets.`,
+  description: `I am a graduate student at Cornell University, pursuing a Master of Engineering in Systems Engineering. 
+  I hold a Bachelor of Science's degree in Statistics with a minor in Data Science from the University of British Columbia. 
+  My interests lie in integrating Data Science techniques into large-scale systems, with a particular focus on Machine Learning.
+  Currently, I am working on a project aimed at developing a post-pregnancy loss mental health support system to aid decision-making 
+  processes. In my previous role as a Data Analyst at CSCEC International Construction, I reviewed and analyzed large volumes of 
+  procurement data. Additionally, as a Data Engineer intern at TripleEagle Logistics Vancouver, I developed an internal billing 
+  system and managed the company's database. I also have research experience developing a Physics-Informed Neural Network (PINN) 
+  to solve partial differential equations in battery modeling. In my side projects, 
+  I focus on building, tuning, and evaluating machine learning models, as well as conducting in-depth analysis on large datasets.`,
   
   aboutItems: [
     // {label: 'Location', text: 'Vancouver, BC', Icon: MapIcon},
@@ -254,7 +256,9 @@ export const education: TimelineItem[] = [
     date: 'August 2024 - May 2025',
     location: 'MEng. in System Engineering',
     title: 'Cornell University ',
-    content: <p></p>,
+    content: <p>Currently taking a Healthcare Pathway.
+      <br></br>Coure Courses: Model Based Systems Engineering, Healthcare Data Management, Healthcare Systems in US, Distribution Systems, etc.
+    </p>,
     // <p>Major in Statistics, Minor in Data Science.
     //   <br></br> Core courses: Introduction to Probability (A+), Statistical Inference for Data Science (A), 
     //   Machine Learning and Data Mining (A), Methods for Statistical Learning (A), Statistical Modelling for Data Science (A)
@@ -265,7 +269,7 @@ export const education: TimelineItem[] = [
     location: 'Bachelor in Science',
     title: 'University of British Columbia ',
     content: <p>Major in Statistics, Minor in Data Science.
-      <br></br> Core courses: Introduction to Probability (A+), Statistical Inference for Data Science (A), 
+      <br></br> Core Courses: Introduction to Probability (A+), Statistical Inference for Data Science (A), 
       Machine Learning and Data Mining (A), Methods for Statistical Learning (A), Statistical Modelling for Data Science (A)
     </p>,
   },
@@ -279,6 +283,22 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   
+  {
+    date: 'June 2024 - August 2024',
+    location: 'CSCEC International Construction Co., LTD.',
+    title: 'Data Analyst Intern',
+    content: (
+      <p>
+        - Analyzed purchase data for over 50 construction projects, identifying trends and patterns to optimize procurement processes, resulting in a 5% reduction in costs.
+        <br></br>
+        - Reviewed and verified monthly purchase detail calculations totalling over ¥200 million to ensure accuracy and compliance.
+        <br></br>
+        - Developed and maintained data dashboards, increasing reporting efficiency by over 30% and supporting decision-making.
+        <br></br>
+        - Collaborated with cross-functional teams to simplify the data collection and reporting pipeline, reducing processing time by over 25%.
+      </p>
+    ),
+  },
   {
     date: 'May 2022 - August 2022',
     location: 'Triple Eagle Logistics Vancouver',
@@ -298,7 +318,7 @@ export const experience: TimelineItem[] = [
   {
     date: 'November 2021 - April 2022',
     location: 'UBC | Supervisor: Maricela Best McKay',
-    title: 'REX Undergraduate Researcher',
+    title: 'Undergraduate Researcher',
     content: (
       <p>
         - Physics Informed Neural Network for Battery Modeling Project.
@@ -437,8 +457,8 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'sweihao@student.ubc.ca',
-      href: 'mailto:sweihao@student.ubc.ca',
+      text: 'ws493@cornell.edu',
+      href: 'mailto:ws493@cornell.edu',
     },
     {
       type: ContactType.Location,
