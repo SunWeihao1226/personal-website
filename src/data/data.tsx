@@ -263,7 +263,7 @@ export const portfolioItems: PortfolioItem[] = [
 export const education: TimelineItem[] = [
   {
     date: 'August 2024 - May 2025',
-    location: 'MEng. in System Engineering',
+    location: 'MEng. in Systems Engineering',
     title: 'Cornell University ',
     content: <p>Currently taking a Healthcare Pathway.
       <br></br>Coure Courses: Model Based Systems Engineering, Healthcare Data Management, Healthcare Systems in US, Distribution Systems, etc.
