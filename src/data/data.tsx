@@ -266,11 +266,22 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'August 2024 - May 2025',
-    location: 'MEng. in Systems Engineering',
+    date: 'August 2024 - May 2026',
+    location: 'Master of Science in Systems Engineering',
     title: 'Cornell University ',
-    content: <p>Currently taking a Healthcare Pathway.
-      <br></br>Coure Courses: Model Based Systems Engineering, Healthcare Data Management, Healthcare Systems in US, Distribution Systems, etc.
+    content: <p>Thesis Project: AI Recommendation for Lane-Changing Problem Applying Cyber-Physical Human System (CPHS) Framework.
+      <br></br>Advisor: <a href="https://www.cee.cornell.edu/faculty-directory/andreas-malikopoulos" style={{ color: '#0000CD' }}> Dr. Andreas Malikopoulos </a> 
+    </p>,
+    // <p>Major in Statistics, Minor in Data Science.
+    //   <br></br> Core courses: Introduction to Probability (A+), Statistical Inference for Data Science (A), 
+    //   Machine Learning and Data Mining (A), Methods for Statistical Learning (A), Statistical Modelling for Data Science (A)
+    // </p>,
+  },
+  {
+    date: 'August 2024 - May 2025',
+    location: 'Master of Engineering in Systems Engineering',
+    title: 'Cornell University ',
+    content: <p>Coure Courses: Model Based Systems Engineering, Project Management, Optimal Control and Decision Theory, Engineering Stochastic Process, etc.
     </p>,
     // <p>Major in Statistics, Minor in Data Science.
     //   <br></br> Core courses: Introduction to Probability (A+), Statistical Inference for Data Science (A), 
@@ -279,18 +290,12 @@ export const education: TimelineItem[] = [
   },
   {
     date: 'September 2019 - May 2024',
-    location: 'Bachelor in Science',
+    location: 'Bachelor of Science',
     title: 'University of British Columbia ',
     content: <p>Major in Statistics, Minor in Data Science.
       <br></br> Core Courses: Introduction to Probability (A+), Statistical Inference for Data Science (A), 
       Machine Learning and Data Mining (A), Methods for Statistical Learning (A), Statistical Modelling for Data Science (A)
     </p>,
-  },
-  {
-    date: 'September 2015 - June 2018',
-    location: 'Secondary school',
-    title: 'Qingdao No.2 Middle School',
-    content: <p></p>,
   },
 ];
 
@@ -357,6 +362,38 @@ export const experience: TimelineItem[] = [
 ];
 
 export const projects: TimelineItem[] = [
+  {
+    date: 'October 2024 - Present',
+    location: 'MS Thesis Project',
+    title: 'AI Recommendation for Lane-Changing Problem Applying Cyber-Physical Human System (CPHS) Framework',
+    content: (
+      <p>
+        - Aimed to enhance AI-driven recommendations for vehicle lane adherence and switching in autonomous driving systems by incorporating human behavior dynamics, improving decision-making reliability in real-world scenarios.
+        <br></br>
+        - Conducted a comprehensive literature review on CPHS frameworks, including mathematical and statistical derivations and proofs of lemmas, methodologies to adapt the framework for diverse application areas.
+        <br></br>
+        - Refined and extended the CPHS framework by introducing new mathematical formulations and functional components tailored to address the complexities of lane recommendation problems in mixed human-AI environments.
+        <br></br>
+        - Currently preparing for model validation and simulation using state-of-the-art autonomous driving platforms (e.g., CARLA), and optimizing AI recommendations through reinforcement learning techniques such as Q-learning.
+      </p>
+    ),
+  },
+  {
+    date: 'September 2024 - Present',
+    location: 'MEng Capstone Project',
+    title: 'Enhancing Post-Pregnancy Loss Mental Health Support Decision Tool',
+    content: (
+      <p>
+        - Supervised by  <a href="https://www.systemseng.cornell.edu/faculty-directory/clifford-whitcomb" style={{ color: '#0000CD' }}> Dr. Clifford Whitcomb </a> and  <a href="https://www.systemseng.cornell.edu/faculty-directory/yiye-zhang" style={{ color: '#0000CD' }}> Dr. Yiye Zhang </a>at Cornell University. 
+        <br></br>
+        - Aimed to develop a clinical decision support tool for personalized mental health interventions in patients experiencing pregnancy loss, for the doctors to make decisions on predicted risk levels.
+        <br></br>
+        - Conducted literature review on methodologies to find factors influencing risk levels in post-pregnancy complications and predictive models for risk assessment.
+        <br></br>
+        - Currently working on generateing data visualization, summary, and analysis results using PRAMS healthcare data.
+      </p>
+    ),
+  },
   {
     date: 'August 2023 - December 2023',
     location: 'Team Project',
