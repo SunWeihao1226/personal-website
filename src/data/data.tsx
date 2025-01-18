@@ -65,8 +65,8 @@ export const heroData: Hero = {
       <p className="prose-sm mx-19 px-20 text-stone-200 sm:prose-base lg:prose-lg">
       I am currently a graduate student at Cornell University, pursuing a Master of Engineering degree in Systems Engineering, 
       and a Master of Science degree in Systems Engineering at the same time. I am working on my master thesis under the supervision of  
-      <a href="https://www.cee.cornell.edu/faculty-directory/andreas-malikopoulos" style={{ color: '#87CEEB' }}> Dr. Andreas Malikopoulos </a> 
-      in the <a href="https://ids-lab.net/" style={{ color: '#87CEEB' }}> Information and Decision Science (IDS) Lab</a>.</p>
+      <a href="https://www.cee.cornell.edu/faculty-directory/andreas-malikopoulos" style={{color: '#87CEEB'}}> Dr. Andreas Malikopoulos </a> 
+      in the <a href="https://ids-lab.net/" style={{color: '#87CEEB'}}> Information and Decision Science (IDS) Lab</a>.</p>
       <p className="prose-sm mx-19 px-20 text-stone-200 sm:prose-base lg:prose-lg">
       I am set to graduate in May 2026, and I am looking for any research or internship opportunities in areas including Systems Engineering, 
       Optimal Control, Data Science, or Machine Learning of 2025 Summer.
@@ -270,7 +270,7 @@ export const education: TimelineItem[] = [
     location: 'Master of Science in Systems Engineering',
     title: 'Cornell University ',
     content: <p>Thesis Project: AI Recommendation for Lane-Changing Problem Applying Cyber-Physical Human System (CPHS) Framework.
-      <br></br>Advisor: <a href="https://www.cee.cornell.edu/faculty-directory/andreas-malikopoulos" style={{ color: '#0000CD' }}> Dr. Andreas Malikopoulos </a> 
+      <br></br>Advisor: <a href="https://www.cee.cornell.edu/faculty-directory/andreas-malikopoulos" style={{color: '#0000CD'}}> Dr. Andreas Malikopoulos </a> 
     </p>,
     // <p>Major in Statistics, Minor in Data Science.
     //   <br></br> Core courses: Introduction to Probability (A+), Statistical Inference for Data Science (A), 
@@ -384,7 +384,7 @@ export const projects: TimelineItem[] = [
     title: 'Enhancing Post-Pregnancy Loss Mental Health Support Decision Tool',
     content: (
       <p>
-        - Supervised by  <a href="https://www.systemseng.cornell.edu/faculty-directory/clifford-whitcomb" style={{ color: '#0000CD' }}> Dr. Clifford Whitcomb </a> and  <a href="https://www.systemseng.cornell.edu/faculty-directory/yiye-zhang" style={{ color: '#0000CD' }}> Dr. Yiye Zhang </a>at Cornell University. 
+        - Supervised by  <a href="https://www.systemseng.cornell.edu/faculty-directory/clifford-whitcomb" style={{color: '#0000CD'}}> Dr. Clifford Whitcomb </a> and  <a href="https://www.systemseng.cornell.edu/faculty-directory/yiye-zhang" style={{color: '#0000CD'}}> Dr. Yiye Zhang </a>at Cornell University. 
         <br></br>
         - Aimed to develop a clinical decision support tool for personalized mental health interventions in patients experiencing pregnancy loss, for the doctors to make decisions on predicted risk levels.
         <br></br>
