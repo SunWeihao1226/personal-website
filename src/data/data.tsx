@@ -63,11 +63,13 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm mx-19 px-20 text-stone-200 sm:prose-base lg:prose-lg">
-      I am currently a graduate student at Cornell University, pursuing a Master of Engineering in Systems Engineering. 
-      With a foundation in Statistics and Data Science based on my undergraduate study at UBC, 
-      my primary focus is on developing healthcare systems that support decision-making through data analysis and Machine Learning. 
-      I am set to graduate in May 2025, and I am seeking opportunities in Systems Engineering, 
-      Data Science, or Machine Learning development roles across North America.
+      I am currently a graduate student at Cornell University, pursuing a Master of Engineering degree in Systems Engineering, 
+      and a Master of Science degree in Systems Engineering at the same time. I am working on my master thesis under the supervision of  
+      <a href="https://www.cee.cornell.edu/faculty-directory/andreas-malikopoulos" style={{ color: '#87CEEB' }}> Dr. Andreas Malikopoulos </a> 
+      in the <a href="https://ids-lab.net/" style={{ color: '#87CEEB' }}> Information and Decision Science (IDS) Lab</a>.</p>
+      <p className="prose-sm mx-19 px-20 text-stone-200 sm:prose-base lg:prose-lg">
+      I am set to graduate in May 2026, and I am looking for any research or internship opportunities in areas including Systems Engineering, 
+      Optimal Control, Data Science, or Machine Learning of 2025 Summer.
       </p>
       <p className="prose-sm mx-19 px-20 text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, I enjoy hiking, skiing, photography, and watching films.
@@ -94,12 +96,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I am a graduate student at Cornell University, pursuing a Master of Engineering in Systems Engineering. 
+  description: `I am a graduate student at Cornell University, currently pursuing a degree in Master of Engineering in Systems Engineering, and a Master of 
+  Science in Systems Engineering at the same time. I am working on my thesis under the supervision of Dr. Andreas Malikopoulos
+  in the Information and Decision Science Lab. 
   I hold a Bachelor of Science's degree in Statistics with a minor in Data Science from the University of British Columbia. 
-  My interests lie in integrating Data Science techniques into large-scale systems, with a particular focus on Machine Learning.
-  Currently, I am working on a project aimed at developing a post-pregnancy loss mental health support system to aid decision-making 
-  processes. In my previous role as a Data Analyst at CSCEC International Construction, I reviewed and analyzed large volumes of 
-  procurement data. Additionally, as a Data Engineer intern at TripleEagle Logistics Vancouver, I developed an internal billing 
+  My thesis work is about improving AI recommendation on autonomous vehicle lane-changing problem applying Cyber-Physical Human System (CPHS).
+  My research interests also lie in applying data-driven approaches into learning and control for complex systems, e.g. autonomous vehicles.
+  I worked as a Data Analyst Intern at CSCEC International Construction in the summer of 2024, analyzing large volumes of 
+  procurement data. I worked as a Data Engineer intern at TripleEagle Logistics Vancouver during summer of 2022, and I developed an internal billing 
   system and managed the company's database. I also have research experience developing a Physics-Informed Neural Network (PINN) 
   to solve partial differential equations in battery modeling. In my side projects, 
   I focus on building, tuning, and evaluating machine learning models, as well as conducting in-depth analysis on large datasets.`,
